@@ -18,7 +18,8 @@ nav {
 
 label.logo {
     font-family: fantasy;
-    color: rgb(255, 213, 96);
+    /* color: rgb(255, 213, 96); */
+    color: rgba(255, 255, 255, 0.611);
     font-size: 40px;
     font-weight: 700;
     line-height: 80px;
@@ -38,7 +39,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    background-color: rgb(80, 187, 219);
+    background-color: rgb(151, 151, 118);
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
