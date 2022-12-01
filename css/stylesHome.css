@@ -48,3 +48,63 @@ body, html {
   color: rgba(255, 255, 255, 0.611);
 }
 
+<<<<<<< HEAD
+=======
+/* Styling of the table class */
+table, th, td{
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+/* Aligning all text in the topical-page to the left */
+div.topical-container {
+  text-align: left;
+}
+
+
+ /* Footer */
+ .footer {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+}
+
+.footer h4 {
+  color: white;
+  margin-bottom: 0%;
+}
+
+.footer p{
+  color: white;
+  margin-top: 0%;
+  font-size: 10px;
+}
+
+.OpeningsHours{
+  text-align: center;
+}
+.Contact{
+  text-align: center;
+}
+.SocialMedia{
+  text-align: center;
+}
+
+.ul-Contact{
+  text-align: left;
+}
+.ul-Openingshours{
+  text-align: center;
+}
+
+
+
+.ul-SocialMedia{
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding: 0px;
+  bottom: 50;
+}
+>>>>>>> 403e8b7acfd3947e6a7e1640b6ba2fdee6c8d2bd
