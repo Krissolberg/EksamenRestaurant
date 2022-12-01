@@ -48,13 +48,3 @@ body, html {
   color: rgba(255, 255, 255, 0.611);
 }
 
-/* Styling of the table class */
-table, th, td{
-  border-collapse: collapse;
-  border: 1px solid;
-}
-
-/* Aligning all text in the topical-page to the left */
-div.topical-container {
-  text-align: left;
-}
