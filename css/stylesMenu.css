@@ -1,20 +1,28 @@
+<<<<<<< HEAD
+body {
+    background-color: #fcf5e5;
+    color: rgba(0, 0, 0, 0.8);
+=======
 body 
 {
     background-color: #fcf5e5;
     margin-bottom: 2em;
+>>>>>>> 54bcbfa356470aec86ead578de58801dab0de5b2
 }
 
 .meny {
     text-align: center;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
+    /*border-bottom: 3px solid rgb(151, 151, 118);
+    margin-bottom: 30px;*/
 }
 
 table, th, td {
     width: 100%;
-    /*border: 1px solid black;*/
 }
 
 p {
@@ -24,23 +32,8 @@ p {
     padding-top: 40px;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-}
-
-.flex-container > div {
-    width: 1350px;
-    text-align: center;
-    line-height: 25px;
-    border-bottom: 3px solid rgb(151, 151, 118);
-    padding-bottom: 20px;
-    /*background-color: aqua;*/
-}
-
 .lunsj {
     text-align: center;
-    padding-top: 40px;
 }
 
 .lunsj th {
@@ -63,4 +56,20 @@ p {
 
 .snacks th {
     padding-top: 20px;
+}
+
+.allergies-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.allergies-container > div {
+    max-width: 1350px;
+    min-width: 1300px;
+    text-align: center;
+    line-height: 25px;
+    border-top: 3px solid rgb(151, 151, 118);
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
