@@ -1,0 +1,30 @@
+body 
+{
+    background-color: #fcf5e5;
+    padding: 0;
+    margin: 0.5em;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/* Styling of the table class */
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+  
+  
+/* Aligning all text in the topical-page to the left */
+div.topical-container {
+    text-align: left;
+    padding: 0 10em 0 10em;
+    margin-bottom: 2em;
+}
+
+div.topical-container h1, p, h2{
+    padding: 1em;
+}
+
+div.topical-container table th, td{
+    padding: 1em;
+}
