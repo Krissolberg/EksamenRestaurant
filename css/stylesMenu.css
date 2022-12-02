@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 body {
     background-color: #fcf5e5;
     color: rgba(0, 0, 0, 0.8);
+=======
+body 
+{
+    background-color: #fcf5e5;
+    margin-bottom: 2em;
 }
 
 .meny {
