@@ -1,0 +1,37 @@
+body 
+{
+    background-color: #fcf5e5;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Styling of the table class */
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+  
+  
+/* Aligning all text in the topical-page to the left */
+div.topical-container {
+    text-align: left;
+    padding: 0 10em 0 10em;
+    margin-bottom: 2em;
+}
+
+div.topical-container h1, p, h2{
+    padding: 1em 1em 1em 0;
+}
+
+div.topical-container .topical-list{
+    margin: 0 5em 0 5em;
+}
+
+div.topical-container .topical-list li{
+    padding: 0.1em;
+}
+
+div.topical-container table th, td{
+    padding: 1em;
+}
