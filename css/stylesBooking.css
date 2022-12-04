@@ -1,13 +1,19 @@
 body {
-    background-color: #ebd5b3;
+    background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
 }
 
+h1#pitchHeader {
+    text-align: center;
+}
 p{
     padding-right:min(25px,5%);
     padding-left:min(25px,5%);
-    margin-top: 40px;
+    margin-top: 5px;
     margin-bottom: 30px;
+}
+h2#bookingHeader{
+    text-align: center;
 }
 .center{
     display: block;
@@ -35,37 +41,4 @@ button {
     width: 75px;
     height: 25px;
     float: right;
-    }
-
-    @media screen and (max-width: 480px) {
-        p{
-            padding-right:min(25px,5%);
-            padding-left:min(25px,5%);
-            margin-top: 40px;
-            margin-bottom: 30px;
-        }
-        .center{
-            display: block;
-            margin-left:auto;
-            margin-right: auto;
-            width: 50%;
-        }
-        
-        table {
-            
-            margin-left:auto;
-            margin-right:auto;
-        }
-        
-        
-        textarea#comment {
-        width: 350px;
-        height: 150px;
-        resize: none;
-        padding: 6px 6px;
-        
-        }
-        
-        
-
     }
