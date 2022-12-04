@@ -36,11 +36,7 @@ div.topical-container table th, td{
     padding: 1em;
 }
 
-.sublist{
-    display: inline;
+#images .image {
+    width: 50%;
+    text-align: center;
 }
-
-.sublist1{
-    display: inline;
-}
-
