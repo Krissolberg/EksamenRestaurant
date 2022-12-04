@@ -4,18 +4,11 @@ body
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-}
-
-/* Styling of the table class */
-table, th, td{
-    border-collapse: collapse;
-    border: 1px solid;
-  }
-  
+} 
   
 /* Aligning all text in the topical-page to the left */
 div.topical-container {
-    /* text-align: left; */
+    text-align: left;
     padding: 0 10em 0 10em;
     margin-bottom: 2em;
 }
@@ -32,11 +25,89 @@ div.topical-container .topical-list li{
     padding: 0.5em;
 }
 
-div.topical-container table th, td{
-    padding: 1em;
+div.topical-container .topical-list .sublist1{
+    margin: 0 2.5em 0 2.5em;
 }
+
+div.topical-container .topical-list .sublist1 .sublist2{
+    margin: 0 2.5em 0 2.5em;
+}
+
+div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
+    padding: 0;
+}
+
+<<<<<<< HEAD
+/* Footer */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  .div p{
+    font-size: 50px;
+  }
+  .footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+  }
+  .footer div{
+    text-align: center;
+  }
+  .Openinghours{
+    flex-grow: 2;
+  }
+  .footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  .Contact{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    line-height: 2;
+    width: 33.33%;
+    float: left;
+  }
+  .Openinghours{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    line-height: 2;
+    width: 33.33%;
+    margin: 0 auto;
+  }
+  .SocialMedia{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    line-height: 2;
+    margin-top: px;
+    float: right;
+    width: 33.33%;
+  }
+  .fa {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  /* Footer End */
+=======
+/* div.topical-container table th, td{
+    padding: 1em;
+} */
 
 #images .image {
     width: 50%;
     text-align: center;
 }
+>>>>>>> cf3871ae9b3383b96961c7b1c55e6a7b03972d06
