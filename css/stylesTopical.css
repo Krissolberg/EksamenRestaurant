@@ -37,7 +37,6 @@ div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
     padding: 0;
 }
 
-<<<<<<< HEAD
 /* Footer */
 
 *{
@@ -101,13 +100,3 @@ div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
   }
   
   /* Footer End */
-=======
-/* div.topical-container table th, td{
-    padding: 1em;
-} */
-
-#images .image {
-    width: 50%;
-    text-align: center;
-}
->>>>>>> cf3871ae9b3383b96961c7b1c55e6a7b03972d06
