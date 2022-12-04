@@ -4,18 +4,11 @@ body
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-}
-
-/* Styling of the table class */
-table, th, td{
-    border-collapse: collapse;
-    border: 1px solid;
-  }
-  
+} 
   
 /* Aligning all text in the topical-page to the left */
 div.topical-container {
-    /* text-align: left; */
+    text-align: left;
     padding: 0 10em 0 10em;
     margin-bottom: 2em;
 }
@@ -32,9 +25,21 @@ div.topical-container .topical-list li{
     padding: 0.5em;
 }
 
-div.topical-container table th, td{
-    padding: 1em;
+div.topical-container .topical-list .sublist1{
+    margin: 0 2.5em 0 2.5em;
 }
+
+div.topical-container .topical-list .sublist1 .sublist2{
+    margin: 0 2.5em 0 2.5em;
+}
+
+div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
+    padding: 0;
+}
+
+/* div.topical-container table th, td{
+    padding: 1em;
+} */
 
 #images .image {
     width: 50%;
