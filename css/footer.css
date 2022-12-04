@@ -1,44 +1,64 @@
 /* Footer */
-.footer {
-padding: 20px;
-text-align: center;
-background: rgba(0, 0, 0, 0.8);
-margin-top: 20px;
-}
 
-.footer h4 {
-color: white;
-margin-bottom: 0%;
-}
-
-.footer p{
-color: white;
-margin-top: 0%;
-font-size: 10px;
-}
-
-.OpeningsHours{
-text-align: center;
-}
-.Contact{
-text-align: left;
-}
-.SocialMedia{
-text-align: center;
-}
-
-.ul-Contact{
-text-align: left;
-}
-.ul-Openingshours{
-text-align: center;
-}
-
-
-.ul-SocialMedia{
-position: absolute;
-right: 0px;
-width: 500px;
-padding: 0px;
-bottom: 50;
-}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  .div p{
+    font-size: 50px;
+  }
+  .footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+  }
+  .footer div{
+    text-align: center;
+  }
+  .Openinghours{
+    flex-grow: 2;
+  }
+  .footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  .Contact{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    line-height: 2;
+    width: 33.33%;
+    float: left;
+  }
+  .Openinghours{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    line-height: 2;
+    width: 33.33%;
+    margin: 0 auto;
+  }
+  .SocialMedia{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    line-height: 2;
+    margin-top: px;
+    float: right;
+    width: 33.33%;
+  }
+  .fa {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  /* Footer End */
+  
