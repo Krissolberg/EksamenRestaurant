@@ -1,25 +1,29 @@
 body {
-    background-color: #ebd5b3;
+    background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
-    
-
 }
 
+h1#pitchHeader {
+    text-align: center;
+}
 p{
     padding-right:min(25px,5%);
     padding-left:min(25px,5%);
-    margin-top: 40px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
-image {
+h2#bookingHeader{
+    text-align: center;
+}
+.center{
     display: block;
-    margin-left: auto;
+    margin-left:auto;
     margin-right: auto;
     width: 50%;
 }
 
 table {
-    
+    overflow:auto;
     margin-left:auto;
     margin-right:auto;
 }
