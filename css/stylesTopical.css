@@ -37,6 +37,10 @@ div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
     padding: 0;
 }
 
+#images .image {
+  width: 55%;
+}
+
 #images p {
   margin-bottom: 2em;
 }
