@@ -16,9 +16,9 @@ nav {
     width: 100%;
 }
 
+/* Styling the logo left side in the navbar */
 label.logo a{
     font-family: Marker felt, fantasy;
-    /* color: rgb(255, 213, 96); */
     color: rgba(255, 255, 255, 0.611);
     font-size: 40px;
     font-weight: 700;
@@ -26,6 +26,7 @@ label.logo a{
     padding: 0 50px;
 }
 
+/* Setting navtabs to float right and have some space beetween eachother */
 nav ul {
     float: right;
     margin-right: 20px;
@@ -37,6 +38,7 @@ nav ul li {
     margin: 0 5px;
 }
 
+/* Styling text and the boxes around the text */
 nav ul li a {
     color: white;
     background-color: rgb(151, 151, 118);
@@ -46,6 +48,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+/* Changes the color of the text when hovering */
 a.active,a:hover {
     color: black;
     transition: .5s;
@@ -65,6 +68,7 @@ a.active,a:hover {
     display: none;
 }
 
+/* Making the navbar responsive by making logo and text smaller when total width is lower */
 @media (max-width: 1300px) {
     label.logo a{
         font-size: 34px;
@@ -87,6 +91,7 @@ a.active,a:hover {
     }
 }
 
+/* When screensize is less than 950px the list in the navbar turns into a hamburger menu */
 @media (max-width: 950px) {
     .checkbtn {
         display: block;
@@ -117,5 +122,4 @@ a.active,a:hover {
     #check:checked ~ ul {
         left: 0;
     }
-
 }
