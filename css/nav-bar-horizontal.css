@@ -40,7 +40,7 @@ nav ul li {
 
 /* Styling text and the boxes around the text */
 nav ul li a {
-    color: white;
+    color: black;
     background-color: rgb(151, 151, 118);
     font-size: 17px;
     padding: 7px 13px;
@@ -50,7 +50,7 @@ nav ul li a {
 
 /* Changes the color of the text when hovering */
 a.active,a:hover {
-    color: black;
+    color: white;
     transition: .5s;
 }
 
