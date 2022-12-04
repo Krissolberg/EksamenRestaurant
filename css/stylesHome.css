@@ -126,3 +126,16 @@ div.topical-container {
 
 /* Footer End */
 
+/* Introduction Text */
+
+.IntroductionText {
+  text-align: left;
+  padding: 0 10em 0 10em;
+  margin-bottom: 2em;
+  line-height: 2;
+  margin-top: 50px;
+}
+
+
+/* Introduction Text End */ 
+
