@@ -4,66 +4,92 @@ body {
     margin-bottom: 2em;
 }
 
+.hero-image {
+    background-image: linear-gradient(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("/images/meny.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Styling for the Menu-title*/
 .meny {
     text-align: center;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
-    /*border-bottom: 3px solid rgb(151, 151, 118);
-    margin-bottom: 30px;*/
+    font-size: 30px;
 }
 
+/*Setting the width for all the tables*/
 table, th, td {
     width: 100%;
 }
 
-p {
-    text-align: center;
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 40px;
+/*CSS for the time under the lunch and dinner*/
+.time {
+    font-size: 15px;
+    opacity: 75%;
 }
 
+/*Centering the lunch-text*/
 .lunsj {
     text-align: center;
 }
 
+/*Adding padding betweeen the different dishes*/
 .lunsj th {
     padding-top: 20px;
 }
 
+/*Centering the dinner-text and adds padding between lunch and dinner*/
 .middag {
     text-align: center;
     padding-top: 40px;
 }
 
+/*Adding padding between the different dishes*/
 .middag th {
     padding-top: 20px;
 }
 
+/*Centering the snacks-text and adds padding between the dinner an snacks*/
 .snacks {
     text-align: center;
     padding-top: 40px;
 }
 
+/*Adding padding between the different dishes*/
 .snacks th {
     padding-top: 20px;
 }
 
+/*Styling the allergies-text*/
+.allergies-container p {
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/*Defining the flex-container for the allergies*/
 .allergies-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: rgb(151, 151, 118);
+    margin-top: 30px;
 }
 
+/*Centering the allergies, adds padding to the top and bottom*/
 .allergies-container > div {
     max-width: 1350px;
     min-width: 1300px;
     text-align: center;
     line-height: 25px;
-    border-top: 3px solid rgb(151, 151, 118);
-    margin-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
+
