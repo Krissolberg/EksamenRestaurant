@@ -1,12 +1,10 @@
 /*
 Makes the background same colour as the other pages, and font same colour as the others.
-Makes Font to be of a size equal to 4% of width, to make for an even reading experience.
 */
 
 body {
     background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
-    font-size: 4vw;
 }
 /*
 Aligns the text to the center of the screen, with a padding width on both sides equal to 5% of the total width.

@@ -1,8 +1,7 @@
-/*Sets background, font colour, and fontsize*/
+/*Sets background, font colour*/
 body {
     background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
-    font-size: 4vw;
 }
 /*Aligns the headline*/
 h1#pitchHeader {
