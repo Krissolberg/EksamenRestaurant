@@ -12,6 +12,9 @@ p{
     margin-top: 5px;
     margin-bottom: 30px;
 }
+p#pitchText {
+    text-align:center;
+}
 h2#bookingHeader{
     text-align: center;
 }
@@ -26,6 +29,11 @@ table {
     overflow:auto;
     margin-left:auto;
     margin-right:auto;
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+    opacity: 1;
 }
 
 

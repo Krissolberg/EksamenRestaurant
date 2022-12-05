@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/stylesAccessibility.css">
     <link rel="stylesheet" type="text/css" href="../css/nav-bar-horizontal.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
     <!-- For social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
@@ -26,5 +27,54 @@
             <li><a href="../html/topical.html">Topical</a></li>
         </ul>
     </nav>
+
+    <div id="accessDivOne">
+        <h1 id="accessHeader">
+                Accessibility
+        </h1>
+
+        <p id="accessParagraph">
+            Vårt første steg for å sikre et inklusivt design for siden var å velge en offwhite bakgrunnsfarge, og en ikke helt svart skriftfarge, for å holde kontrasten høy, men ikke påføre unødvendig høyt stress på øynene, som en helt hvit bakgrunn ville gjort.
+            Vi holdt oss også unna intrikate skrifttyper, hvis innlasting ikke bare kunne senket innlastingstid for siden, men vært problematiske å lese hvis teksten ble for intrikat eller stilisert. Så, for å unngå en “hva med” situasjon under designet, så holdt vi oss til default.
+            Vårt neste steg var så å gjøre det vi kunne for å holde siden oversiktlig, og ryddig, og å ha et fast rammeverk i form av header og footer på alle sidene, så man alltid hadde muligheten for å bevege seg rundt på siden, i form av header knappene/hamburgermenyen, samt å holde alt av tekst sentrert til midten av siden, i en ordnet kolonne.
+            Dette sørger for at uansett skjermstørrelse så er teksten leselig, og posisjonert godt i forhold til skjermkanter eller lignende.
+            Når det kommer til skjermkanter, så er det implementert at når skjermen blir mindre, så går headeren over fra en rekke med knapper, til en hamburgermeny, som gjør det mye mer brukervennlig på tablets eller telefoner.
+
+            Når det kom til koden, så valgte vi å kommentere alt på engelsk, samt benytte oss eksklusivt av engelske navn på id, for å gjøre det mye lettere for en person som kanskje ikke var så dreven på norsk til å vedlikeholde. Videre, så sørget vi for at alt av kode var godt kommentert, så det ikke var noen tvil om hva som gjorde hva, og vi prøvde å holde all CSS oversiktlig, så det ikke var vanskelig å orientere seg.
+
+            Når det kom til testing av siden, så benyttet vi oss av utvidelsen “Wave” (som var anbefalt) og kjørte den for de forskjellige sidene.
+            Under er det lagt et bilde for å vise hva som var det vi kaller den vesentligste feilen, nemlig problem i Headeren, så vi skrudde opp kontrasten på knappene, og gjorde at de ble hvite (kontrast mot det svarte) ved focus, og sa oss fornøyde med det.
+            En annen kontinuerlig feil vi fikk var at en markør for hamburgermenyen ikke var synlig. Da ønsket var å holde den usynlig, så valgte vi å ignorere den.
+
+            Til slutt, så fikk vi en serie feil ved bookingen;
+            Det at vi ikke hadde labels på input boxene ble ignorert, da vi hadde placeholder verdier.
+            Det at placeholder verdiene ikke var spesielt synlige ble håndtert ved å skru opp opacity til 1.
+        </p>
+    </div>
+
+     <!-- Footer -->
+       
+     <div class="footer">
+        <div class="Contact">
+            <h3>Kontakt</h3>
+            <p>Telefon: 22334455</p>
+            <p>epost: kundeservice@ventrilo.no</p>
+            <p>Lokasjon: Ventrilogata 1337, 1234 Oslo</p>
+        </div>
+        <div class="Openinghours">
+            <h3>Åpningstider</h3>
+            <p>Mandag-Torsdag 10:00 - 20:00</p>
+            <p>Fredag-Lørdag 10:00 - 22:30</p>
+            <p>Søndag 12:00 - 20:00</p>
+        </div>
+        <div class="SocialMedia">
+            <h3>Følg oss</h3>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://nb-no.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+        </div>
+    </div>
+
+
+    
 </body>
 </html>
