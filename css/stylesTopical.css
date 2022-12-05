@@ -42,11 +42,9 @@ div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
   margin-left: 25%;
 }
 
-
-
-  #images .image {
+#images .image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
