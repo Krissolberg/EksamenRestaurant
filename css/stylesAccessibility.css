@@ -6,13 +6,18 @@ body {
     background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
 }
+h1#accessHeader {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 /*
 Aligns the text to the center of the screen, with a padding width on both sides equal to 5% of the total width.
 */
 div#accessDivOne {
+    line-height: 1.6;
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
 }
 /*puts the image to the center of the screen, with a maximum width of 75% of the screen size.*/
 img#navBarImg {
