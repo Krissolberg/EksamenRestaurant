@@ -13,8 +13,13 @@ div.topical-container {
     margin-bottom: 2em;
 }
 
-div.topical-container h1, p, h2{
+div.topical-container h1, h2{
     padding: 1em 1em 1em 0;
+}
+
+/* Targetting only the p inside of topical container */
+.topical-container p{
+  padding: 1em 1em 1em 0;
 }
 
 div.topical-container .topical-list{
