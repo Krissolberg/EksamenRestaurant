@@ -16,3 +16,9 @@ div#accessDivOne {
     padding-left: 5%;
     padding-right: 5%;
 }
+/*puts the image to the center of the screen, with a maximum width of 75% of the screen size.*/
+img#navBarImg {
+    align-items: center;
+    max-width: 75%;
+    max-height: auto;
+}
