@@ -1,10 +1,14 @@
+/*Sets background, font colour, and fontsize*/
 body {
     background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
+    font-size: 4vw;
 }
 
 h1#pitchHeader {
     text-align: center;
+    padding-left:min(50px, 5%);
+    padding-right:min(50px, 5%);
 }
 p{
     padding-right:min(25px,5%);
