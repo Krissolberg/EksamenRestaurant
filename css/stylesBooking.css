@@ -2,19 +2,18 @@
 body {
     background-color: #fcf5e5;
     color: rgb(0, 0, 0.8);
-    font-size: 14px;
 }
 /*Aligns the headline*/
 h1#pitchHeader {
     text-align: center;
-    padding-left:min(50px, 10%, 300px);
-    padding-right:min(50px, 10%, 300px);
+    padding-left:min(50px, 10%);
+    padding-right:min(50px, 10%);
 }
 /*Aligns all the paragraphs of texts as one, to make sure they have significant padding around them
 and that they all align to the center of the screen, as desired.*/
 p{
-    padding-right:min(25px,5%);
-    padding-left:min(25px,5%);
+    padding-right:25%;
+    padding-left:25%;
     margin-top: 5px;
     margin-bottom: 30px;
     text-align: center;
