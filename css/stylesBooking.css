@@ -7,8 +7,8 @@ body {
 /*Aligns the headline*/
 h1#pitchHeader {
     text-align: center;
-    padding-left:min(50px, 10%);
-    padding-right:min(50px, 10%);
+    padding-left:min(50px, 10%, 300px);
+    padding-right:min(50px, 10%, 300px);
 }
 /*Aligns all the paragraphs of texts as one, to make sure they have significant padding around them
 and that they all align to the center of the screen, as desired.*/
