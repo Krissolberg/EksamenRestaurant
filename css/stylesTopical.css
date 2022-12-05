@@ -39,7 +39,14 @@ div.topical-container .topical-list .sublist1 .sublist2 sublist2info{
 
 #images p {
   margin-bottom: 2em;
+  margin-left: 25%;
 }
 
-/* Footer */
 
+
+  #images .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
