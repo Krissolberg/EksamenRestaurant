@@ -10,14 +10,20 @@ h1#pitchHeader {
 }
 /*Aligns all the paragraphs of texts as one, to make sure they have significant padding around them
 and that they all align to the center of the screen, as desired.*/
-p{
+p#pitchText{
     padding-right:25%;
     padding-left:25%;
     margin-top: 5px;
     margin-bottom: 30px;
     text-align: center;
 }
-
+p#imageText {
+    padding-right:25%;
+    padding-left:25%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 /*Aligns the second headline to the center*/
 h2#bookingHeader{
     text-align: center;
